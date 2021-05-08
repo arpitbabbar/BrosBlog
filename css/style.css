@@ -1,0 +1,83 @@
+body {
+  background-color: blanchedalmond;
+}
+
+.myrow-1 {
+  height: 100px;
+  /* border: 1px solid black; */
+  margin-top: 20px;
+}
+
+.mycol-1 {
+  /* border: 1px solid red; */
+  text-align: center;
+  font-family: Lucida Calligraphy;
+}
+
+.myrow-2 {
+  /* height: 250px; */
+  /* border: 1px solid black; */
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.cat {
+  border: 1px solid black;
+  width: auto;
+  background-color: turquoise;
+}
+
+.catrow-1 {
+   height: 100px;
+  /* border: 1px solid black; */
+  margin-top: 10px;
+  text-align: center;
+  font-family: Comic Sans MS;
+  
+}
+
+.sh1 {
+border-bottom: 1px dashed red;
+
+}
+
+.card-imge {
+  border-radius: 20%;
+}
+
+.card-text {
+  visibility: hidden;
+  font-family:Lucida Handwriting;
+  font-weight: bold;
+  font-style: italic;
+  font-size: large;
+  transition: ease all 1s;
+  text-rendering: geometricPrecision;
+  
+  
+}
+
+.card:hover {
+   transition: ease all 1s;
+}
+
+.creators {
+  /* border: 1px solid black; */
+  margin-top: 10px;
+}
+
+.creatimg {
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.creatimg:hover {
+  transition: ease all 1s;
+  transform: rotate(-20deg);
+  /* transform: scale(1.2); */
+}
+
+.crecard{
+  border: 1px solid black;
+  border-radius: 10%;
+}
